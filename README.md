@@ -16,7 +16,7 @@ https://datatofish.com/add-python-to-windows-path/
 
 3. Go to https://api.imgbb.com/ and get your api key.
 
-4. For Fastest use create a shortcut of Upload-Companion.exe and move it to desktop.
+4. For Fastest use create a shortcut of Thuneder-Upload.exe and move it to desktop.
 
 ##  How to Use:
 
