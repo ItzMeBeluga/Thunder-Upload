@@ -10,7 +10,7 @@ https://datatofish.com/add-python-to-windows-path/
 
 ## Setup:
 
-1. Run the Install requirements.bat or run this command on terminal ( ``` pip install -r requirements.txt ``` )
+1. Run the Install requirements.bat or run this command on terminal ``` pip install -r requirements.txt ```
 
 2. Edit the RelaseInfoCreator.json and set image host api_key (imgbb recomemded)
 
