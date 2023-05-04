@@ -1,0 +1,32 @@
+{
+    "paths": {
+        "image_save_location": "Screenshots",
+        "ffmpeg_bin_path": "bin\\ffmpeg.exe",
+        "mediainfo_bin_path": "bin\\MediaInfo.exe"
+    },
+    "image_hosts": [
+        {
+            "name": "ptpimg",
+            "api_key": "",
+            "default": false
+        },
+        {
+            "name": "imgbb",
+            "api_key": "",
+            "default": true
+        },
+        {
+            "name": "hdbimg",
+            "username": "",
+            "api_key": "",
+            "default": false
+        },
+        {
+            "name": "ahdimg",
+            "api_key": "",
+            "default": false
+        }
+    ],
+    "print_not_copy": true,
+    "use_bbcode_tags": true
+}

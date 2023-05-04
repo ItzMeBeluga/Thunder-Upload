@@ -1,0 +1,5 @@
+guessit
+requests
+pyperclip
+Pillow
+bencode.py
