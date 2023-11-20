@@ -1,4 +1,4 @@
-Thuneder-Upload Version 1.00
+Thuneder-Upload Version 3.001
 
 ## Important:
 
@@ -26,4 +26,5 @@ https://datatofish.com/add-python-to-windows-path/
     It will genarate Mediainfo + Screenshots and will upload them for you to your selected image host + it will create a .torrent of the file 
 
 ## note:
-it will save the .torrent on the same path of your media file and there shouldn't be any space in the name of the file or it may show some error. 
+
+There shouldn't be any space in the name of the file or it may show some error. 
