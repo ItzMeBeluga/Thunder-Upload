@@ -1,0 +1,12 @@
+V 3.001
+Date : 21/11/2023
+
+Changes
+
+1. Fixed some Bugs.
+2. Added custom path option for .torrent file output.
+3. Added custom tracker url option.
+4. Fixed windows virus decection.
+5. Added 'Thunder Upload A.exe' and 'Thunder Upload B.exe' executable files.
+
+Author : Beluga
