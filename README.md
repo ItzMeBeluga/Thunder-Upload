@@ -1,6 +1,6 @@
 Thuneder-Upload Version 3.001
 
-[Read What's New](https://raw.githubusercontent.com/ItzMeBeluga/Thunder-Upload/main/what's-new.txt){:target="_blank"}
+[Read What's New](https://raw.githubusercontent.com/ItzMeBeluga/Thunder-Upload/main/what's-new.txt)
 
 
 ## Important:
@@ -35,7 +35,7 @@ There shouldn't be any space in the name of the file or it may show some error.
 ## Torrent Creator Section
 
 ## Usage:
-
+```
 python TorrentCreator.py -p : Show current path for .torrent file output and announce URL.
 
 python TorrentCreator.py -np : Set a new path for .torrent file output.
