@@ -1,5 +1,8 @@
 Thuneder-Upload Version 3.001
 
+[Read What's New](https://raw.githubusercontent.com/ItzMeBeluga/Thunder-Upload/main/what's-new.txt){:target="_blank"}
+
+
 ## Important:
 
 1. Install python 3.10.7 (or any version from 3.8.x to 3.10.x), be sure to add python to PATH while installing it
