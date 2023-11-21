@@ -32,7 +32,11 @@ There shouldn't be any space in the name of the file or it may show some error.
 ## Torrent Creator Section
 
 ## Usage:
-    - ```python TorrentCreator.py -p``` : Show current path for .torrent file output and announce URL.
-    - ```python TorrentCreator.py -np```  : Set a new path for .torrent file output.
-    - ```python TorrentCreator.py -a``` : Show current announce URL.
-    - ```python TorrentCreator.py -na``` : Set a new announce URL.
+
+python TorrentCreator.py -p : Show current path for .torrent file output and announce URL.
+
+python TorrentCreator.py -np : Set a new path for .torrent file output.
+
+python TorrentCreator.py -a : Show current announce URL.
+
+python TorrentCreator.py -na : Set a new announce URL.
