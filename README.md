@@ -43,3 +43,6 @@ python TorrentCreator.py -np : Set a new path for .torrent file output.
 python TorrentCreator.py -a : Show current announce URL.
 
 python TorrentCreator.py -na : Set a new announce URL.
+```
+## Credits
+Thanks to [BC44](https://github.com/BC44) for the [Release Info Creator](https://github.com/BC44/Release-Info-Creator) script.
