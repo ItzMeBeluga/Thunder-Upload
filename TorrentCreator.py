@@ -33,11 +33,11 @@ def show_current_url():
     else:
         print('No current data found in conf.json')
 
-def set_new_path():
+def set_new_path(existing_url=None):
     new_path = input("Please Enter A New Path For Where You Want Your .torrent File Is Exported: ")
     return new_path
 
-def set_new_announce_url():
+def set_new_announce_url(existing_path=None):
     new_url = input("Please Enter A New Announce Url For Your Torrent Tracker: ")
     return new_url
 
@@ -57,18 +57,18 @@ if len(sys.argv) == 2:
         show_current_path()
         sys.exit(0)
     elif sys.argv[1] == "-np":
-        new_path = set_new_path()
         conf_data = get_conf_data()
-        update_conf_file(new_path, conf_data["announce_url"])
+        new_path = set_new_path(existing_url=conf_data["announce_url"] if conf_data else None)
+        update_conf_file(new_path, conf_data["announce_url"] if conf_data else None)
         print(f'New path set for .torrent file output: {new_path}')
         sys.exit(0)
     elif sys.argv[1] == "-a":
         show_current_url()
         sys.exit(0)
     elif sys.argv[1] == "-na":
-        new_url = set_new_announce_url()
         conf_data = get_conf_data()
-        update_conf_file(conf_data["torrent_output_path"], new_url)
+        new_url = set_new_announce_url(existing_path=conf_data["torrent_output_path"] if conf_data else None)
+        update_conf_file(conf_data["torrent_output_path"] if conf_data else None, new_url)
         print(f'New announce URL set: {new_url}')
         sys.exit(0)
     elif sys.argv[1] in ["-h", "-help"]:
@@ -76,6 +76,7 @@ if len(sys.argv) == 2:
         sys.exit(0)
 
 # If no or incorrect command-line arguments are provided, proceed with the torrent creation process
+# ... (rest of the code remains unchanged)
 
 # Check if conf.json has the necessary data
 conf_data = get_conf_data()
