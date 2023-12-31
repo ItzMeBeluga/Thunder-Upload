@@ -48,3 +48,6 @@ To convert `Thunder-Upload-A.bat` or `Thunder-Upload-B.bat` to an executable fil
 **Note:** This tool is currently available for Windows users only. Regular updates will be provided to enhance its functionality.
 
 Feel free to contribute, report issues, or suggest improvements on the [GitHub page](https://github.com/ItzMeBeluga/Thunder-Upload). Happy sharing!
+
+## Credits
+Thanks to [BC44](https://github.com/BC44) for the [Release Info Creator](https://github.com/BC44/Release-Info-Creator) script.
