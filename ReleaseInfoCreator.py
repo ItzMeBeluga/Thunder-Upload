@@ -39,7 +39,7 @@ def main():
 
     if Settings.print_not_copy:
         subprocess.run(CLEAR_FN, shell=True)
-        print(release_info + formatted_urls)
+        print("[mediainfo]{}[/mediainfo]{}".format(release_info, formatted_urls))
     else:
         pyperclip.copy(release_info + formatted_urls)
         print('\nMediainfo + image URLs have been copied to clipboard')
