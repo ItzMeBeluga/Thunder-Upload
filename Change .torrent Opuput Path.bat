@@ -1,3 +1,3 @@
 @echo off
-python TorrentCreator.py -np
+python TorrentCreator.py -np path
 pause
