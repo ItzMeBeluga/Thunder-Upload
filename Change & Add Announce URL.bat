@@ -1,3 +1,3 @@
 @echo off
-python TorrentCreator.py -na
+python TorrentCreator.py -na announce
 pause
