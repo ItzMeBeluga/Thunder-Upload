@@ -10,3 +10,12 @@ Changes
 5. Added 'Thunder Upload A.exe' and 'Thunder Upload B.exe' executable files.
 
 Author : Beluga
+
+
+v 3.5.2
+
+Changes
+
+1. Some unnecessary files removed.
+2. Fixed error with files having space inside name.
+3. Fixed torrent creation info missing.
