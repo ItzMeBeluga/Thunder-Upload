@@ -61,7 +61,7 @@ def print_help():
 def create_torrent(filename, announce_url, torrent_output_path):
     base_filename = os.path.basename(filename)
     file_size = os.path.getsize(filename)
-    piece_size = 2 ** 19
+    piece_size = 2 ** 20
     num_pieces = (file_size + piece_size - 1) // piece_size
     pieces = []
 
