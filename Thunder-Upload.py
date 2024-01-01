@@ -46,7 +46,7 @@ def main():
         time.sleep(5)
 
     # Run the Toc.py script with the same input file
-    toc_script_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "Toc.py")
+    toc_script_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "TorrentCreator.py")
     subprocess.run(['python', toc_script_path, sys.argv[1]])
 
 if __name__ == '__main__':
