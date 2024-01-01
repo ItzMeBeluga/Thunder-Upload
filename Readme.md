@@ -35,7 +35,7 @@ Welcome to **Thunder Upload**, a user-friendly tool designed to streamline the p
 
 ### .BAT Method
 
-1. Double click on `Thunder-Upload-A.bat` to open the terminal.
+1. Double click on `Thunder-Upload.bat` to open the terminal.
 2. Drag and drop your video file into the terminal, press enter, and wait for the processes to complete.
 3. After completion, the terminal will display URLs for MediaInfo, screenshot, and the location of the exported .torrent file.
 
@@ -43,7 +43,7 @@ Welcome to **Thunder Upload**, a user-friendly tool designed to streamline the p
 
 ## Executable Conversion
 
-To convert `Thunder-Upload-A.bat` or `Thunder-Upload-B.bat` to an executable file for convenience, use the `Advance_Bat_To_EXE.exe` in the `bin` folder. Refer to [this video](https://www.awesomescreenshot.com/video/23667393?key=d2858db8447766a4283fa40b4a5847df) for a guide on creating an executable file.
+To convert `Thunder-Upload.bat` to an executable file for convenience, use the `Advance_Bat_To_EXE.exe` in the `bin` folder. Refer to [this video](https://www.awesomescreenshot.com/video/23667393?key=d2858db8447766a4283fa40b4a5847df) for a guide on creating an executable file.
 
 **Note:** This tool is currently available for Windows users only. Regular updates will be provided to enhance its functionality.
 
