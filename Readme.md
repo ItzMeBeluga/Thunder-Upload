@@ -1,9 +1,11 @@
 # Thunder Upload - Simplifying Torrent Uploads
 
+**Thunder Upload V 3.5.2**
+**Whats New !**
+  - BBcode formated Mediainfo+screenshot_url will be copied to the clipboard beside printing inside the terminal.
+  - Some .torrent meta info related issue fixed.
+  - Some Bug fixed.
 ## Introduction
-
-**Happy New Year 2024!**
-
 Welcome to **Thunder Upload**, a user-friendly tool designed to streamline the process of uploading torrents for Windows PC users. This tool automates the creation of MediaInfo for your files, captures screenshots of your video files, uploads them to IMGBB, and generates the .torrent meta-file—all with just a few clicks.
 
 ## Features
