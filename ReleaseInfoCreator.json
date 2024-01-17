@@ -27,6 +27,6 @@
             "default": false
         }
     ],
-    "print_not_copy": true,
+    "print_not_copy": false,
     "use_bbcode_tags": true
 }
