@@ -78,7 +78,7 @@ def create_torrent(filename, announce_url, torrent_output_path):
             'pieces': b''.join(pieces),
             'length': file_size
         },
-        'created by': 'bencode',
+        'created by': 'Thunderupload/3.5.2',
         'creation date': int(time.time())
     }
 
