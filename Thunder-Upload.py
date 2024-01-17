@@ -41,8 +41,9 @@ def main():
         subprocess.run(CLEAR_FN, shell=True)
         print("[mediainfo]{}[/mediainfo]{}".format(release_info, formatted_urls))
     else:
-        pyperclip.copy(release_info + formatted_urls)
-        print('\nMediainfo + image URLs have been copied to clipboard')
+        clipboard_text = "[mediainfo]{}[/mediainfo]{}".format(release_info, formatted_urls)
+        pyperclip.copy(clipboard_text)
+        print('\nMediainfo + image URLs have been copied to clipboard: {}'.format(clipboard_text))
         time.sleep(5)
 
     # Run the Toc.py script with the same input file
