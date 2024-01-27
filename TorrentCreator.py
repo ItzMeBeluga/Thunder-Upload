@@ -70,14 +70,19 @@ def create_torrent(filename, announce_url, torrent_output_path):
             piece = f.read(piece_size)
             pieces.append(hashlib.sha1(piece).digest())
 
+    # Disable DHT, PeX, and LSD by setting corresponding flags to 0
+    info_dict = {
+        'name': base_filename,
+        'piece length': piece_size,
+        'pieces': b''.join(pieces),
+        'length': file_size,
+        'private': 1,   # Set to 1 to indicate a private torrent
+        'source': '',   # Add any additional info about the source if needed
+    }
+
     torrent = {
         'announce': announce_url,
-        'info': {
-            'name': base_filename,
-            'piece length': piece_size,
-            'pieces': b''.join(pieces),
-            'length': file_size
-        },
+        'info': info_dict,
         'created by': 'Thunderupload/3.5.2',
         'creation date': int(time.time())
     }
